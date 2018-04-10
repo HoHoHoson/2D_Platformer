@@ -81,12 +81,6 @@
 /processorParam:Quality=Best
 /build:Jump.wav
 
-#begin death.wav
-/importer:WavImporter
-/processor:SoundEffectProcessor
-/processorParam:Quality=Best
-/build:death.wav
-
 #begin Project_Map.tmx
 /importer:TiledMapImporter
 /processor:TiledMapProcessor
@@ -116,9 +110,9 @@
 /processorParam:TextureFormat=Color
 /build:zombie.png
 
-#begin zombie-7.wav
+#begin player_death.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
-/build:zombie-7.wav
+/build:player_death.wav
 
