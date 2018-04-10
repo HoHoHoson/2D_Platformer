@@ -10,7 +10,7 @@
 
 #-------------------------------- References --------------------------------#
 
-/reference:E:\Monogame Platformer\2D Platformer\packages\MonoGame.Extended.Content.Pipeline.1.0.617\tools\MonoGame.Extended.Content.Pipeline.dll
+/reference:..\..\packages\MonoGame.Extended.Content.Pipeline.1.0.617\tools\MonoGame.Extended.Content.Pipeline.dll
 
 #---------------------------------- Content ---------------------------------#
 
@@ -69,12 +69,6 @@
 /processorParam:TextureFormat=Color
 /build:heart.png
 
-#begin Superhero_violin_no_intro.ogg
-/importer:OggImporter
-/processor:SongProcessor
-/processorParam:Quality=Best
-/build:Superhero_violin_no_intro.ogg
-
 #begin Jump.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
@@ -115,4 +109,16 @@
 /processor:SoundEffectProcessor
 /processorParam:Quality=Best
 /build:player_death.wav
+
+#begin zombie_death.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:zombie_death.wav
+
+#begin Superhero_violin_no_intro.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Superhero_violin_no_intro.wav
 

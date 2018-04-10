@@ -22,7 +22,8 @@ namespace _2D_Platformer
         List<Enemy> enemies = new List<Enemy>();
         Sprite goal = null;
 
-        Song gameMusic;
+        SoundEffect gameMusic;
+        SoundEffectInstance gameMusicInstance;
         SoundEffect zombieDeath;
         SoundEffectInstance zombieDeathInstance;
 
@@ -125,11 +126,12 @@ namespace _2D_Platformer
                 }
             }
 
-            gameMusic = Content.Load<Song>("Superhero_violin_no_intro");
-            MediaPlayer.Play(gameMusic);
-            MediaPlayer.IsRepeating = true;
+            gameMusic = Content.Load<SoundEffect>("Superhero_violin_no_intro");
+            gameMusicInstance = gameMusic.CreateInstance();
+            gameMusicInstance.IsLooped = true;
+            gameMusicInstance.Play();
 
-            zombieDeath = Content.Load<SoundEffect>("zombie-7");
+            zombieDeath = Content.Load<SoundEffect>("zombie_death");
             zombieDeathInstance = zombieDeath.CreateInstance();
 
             arialFont = Content.Load<SpriteFont>("Arial");

@@ -60,7 +60,7 @@ namespace _2D_Platformer
 
             jumpSound = content.Load<SoundEffect>("Jump");
             jumpSoundInstance = jumpSound.CreateInstance();
-            playerDeathSound = content.Load<SoundEffect>("Death");
+            playerDeathSound = content.Load<SoundEffect>("player_death");
             playerDeathSoundInstance = playerDeathSound.CreateInstance();
 
             playerSprite.Add(animation, 0, -5);

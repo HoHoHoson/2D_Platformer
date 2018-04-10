@@ -44,19 +44,14 @@ E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\Content
 E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\Content\chest.xnb
 E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\Content\zombie.xnb
 E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\Content\zombie-7.xnb
-C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\Level2.xnb
 C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\Arial.xnb
 C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\BG.xnb
 C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\chest.xnb
-C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\death.xnb
 C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\heart.xnb
 C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\Jump.xnb
 C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\Project_Map.xnb
-C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\Superhero_violin_no_intro.wma
-C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\Superhero_violin_no_intro.xnb
 C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\Tileset.xnb
 C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\walk.xnb
-C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\zombie-7.xnb
 C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\zombie.xnb
 C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\bin\Windows\x86\Debug\2D Platformer.exe
 C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\bin\Windows\x86\Debug\2D Platformer.pdb
@@ -90,3 +85,6 @@ C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\obj\x86\Debug\2D P
 C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\obj\x86\Debug\2D Platformer.csproj.CoreCompileInputs.cache
 C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\obj\x86\Debug\2D Platformer.exe
 C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\obj\x86\Debug\2D Platformer.pdb
+C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\player_death.xnb
+C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\zombie_death.xnb
+C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\Superhero_violin_no_intro.xnb
