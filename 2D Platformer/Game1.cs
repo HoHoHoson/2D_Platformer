@@ -21,6 +21,7 @@ namespace _2D_Platformer
         Player player = null;
         List<Enemy> enemies = new List<Enemy>();
         Sprite goal = null;
+        Sprite keys = null;
 
         SoundEffect gameMusic;
         SoundEffectInstance gameMusicInstance;
@@ -45,6 +46,9 @@ namespace _2D_Platformer
         public static float acceleration = maxVelocity.X * 2;
         public static float friction = maxVelocity.X * 6;
         public static float jumpImpulse = meter * 1500;
+
+        bool keyCollected = false;
+        bool chestInteracted = false;
 
         public int ScreenWidth
         {
@@ -124,6 +128,18 @@ namespace _2D_Platformer
                         goal.position = new Vector2(obj.Position.X, obj.Position.Y);
                     }
                 }
+                if (layer.Name == "Key")
+                {
+                    TiledMapObject key = layer.Objects[0];
+                    if (key != null)
+                    {
+                        AnimatedTexture keyAnim = new AnimatedTexture(Vector2.Zero, 0, 1, 1);
+                        keyAnim.Load(Content, "Key", 1, 1);
+                        keys = new Sprite();
+                        keys.Add(keyAnim, 0, 5);
+                        keys.position = new Vector2(key.Position.X, key.Position.Y);
+                    }
+                }
             }
 
             gameMusic = Content.Load<SoundEffect>("Superhero_violin_no_intro");
@@ -185,6 +201,11 @@ namespace _2D_Platformer
                 e.Draw(spriteBatch);
             }
             goal.Draw(spriteBatch);
+            keys.Draw(spriteBatch);
+            if (keyCollected == false && chestInteracted == true)
+            {
+                spriteBatch.DrawString(arialFont, "Locked", new Vector2(goal.position.X - 10, goal.position.Y - 30), Color.Red);
+            }
 
             spriteBatch.End();
 
@@ -260,6 +281,14 @@ namespace _2D_Platformer
                         Vector2 playerRespawn = player.Respawn;
                     }
                 }
+            }
+            if (IsColliding(player.Bounds, goal.Bounds) == true)
+            {
+                chestInteracted = true;
+            }
+            else
+            {
+                chestInteracted = false;
             }
         }
         private bool IsColliding(Rectangle rect1, Rectangle rect2)

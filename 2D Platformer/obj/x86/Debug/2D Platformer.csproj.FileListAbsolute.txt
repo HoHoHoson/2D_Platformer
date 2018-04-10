@@ -88,3 +88,5 @@ C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\obj\x86\Debug\2D P
 C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\player_death.xnb
 C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\zombie_death.xnb
 C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\Superhero_violin_no_intro.xnb
+C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\Key - Icon.xnb
+C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\Key.xnb

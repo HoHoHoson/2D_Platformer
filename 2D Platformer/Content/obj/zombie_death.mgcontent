@@ -3,7 +3,7 @@
   <SourceFile>C:/Users/s181702/Documents/GitHub/2D_Platformer/2D Platformer/Content/zombie_death.wav</SourceFile>
   <SourceTime>2018-04-10T18:51:04.6239702+10:00</SourceTime>
   <DestFile>C:/Users/s181702/Documents/GitHub/2D_Platformer/2D Platformer/Content/bin/zombie_death.xnb</DestFile>
-  <DestTime>2018-04-10T18:51:38.6739702+10:00</DestTime>
+  <DestTime>2018-04-10T20:32:28.7930646+10:00</DestTime>
   <Importer>WavImporter</Importer>
   <ImporterTime>2017-01-31T18:47:42+11:00</ImporterTime>
   <Processor>SoundEffectProcessor</Processor>

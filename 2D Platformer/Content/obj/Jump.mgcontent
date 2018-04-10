@@ -3,7 +3,7 @@
   <SourceFile>C:/Users/s181702/Documents/GitHub/2D_Platformer/2D Platformer/Content/Jump.wav</SourceFile>
   <SourceTime>2018-04-03T17:49:31.9486096+10:00</SourceTime>
   <DestFile>C:/Users/s181702/Documents/GitHub/2D_Platformer/2D Platformer/Content/bin/Jump.xnb</DestFile>
-  <DestTime>2018-04-10T18:43:42.7879702+10:00</DestTime>
+  <DestTime>2018-04-10T20:32:28.4479956+10:00</DestTime>
   <Importer>WavImporter</Importer>
   <ImporterTime>2017-01-31T18:47:42+11:00</ImporterTime>
   <Processor>SoundEffectProcessor</Processor>
