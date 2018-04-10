@@ -1,0 +1,46 @@
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\Content\Arial.xnb
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\2D Platformer.exe
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\2D Platformer.pdb
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\MonoGame.Framework.dll
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.dll
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.XInput.dll
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\MonoGame.Framework.xml
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.xml
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.XInput.xml
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+E:\Monogame Platformer\2D Platformer\2D Platformer\obj\x86\Debug\2D Platformer.csprojResolveAssemblyReference.cache
+E:\Monogame Platformer\2D Platformer\2D Platformer\obj\x86\Debug\2D Platformer.csproj.CoreCompileInputs.cache
+E:\Monogame Platformer\2D Platformer\2D Platformer\obj\x86\Debug\2D Platformer.exe
+E:\Monogame Platformer\2D Platformer\2D Platformer\obj\x86\Debug\2D Platformer.pdb
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\Content\Project_Map.xnb
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\Content\Tileset.xnb
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\MonoGame.Extended.dll
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\MonoGame.Extended.Graphics.dll
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\MonoGame.Extended.Tiled.dll
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\Newtonsoft.Json.dll
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\MonoGame.Extended.pdb
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\MonoGame.Extended.Graphics.pdb
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\MonoGame.Extended.Tiled.pdb
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\Newtonsoft.Json.xml
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\Content\BG.xnb
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\Content\Level2.xnb
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\Content\walk.xnb
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\Content\heart.xnb
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\Content\Jump.xnb
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\Content\Superhero_violin_no_intro.wma
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\Content\Superhero_violin_no_intro.xnb
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\Content\death.xnb
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\Content\chest.xnb
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\Content\zombie.xnb
+E:\Monogame Platformer\2D Platformer\2D Platformer\bin\Windows\x86\Debug\Content\zombie-7.xnb

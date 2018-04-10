@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>E:/Monogame Platformer/2D Platformer/2D Platformer/Content/death.wav</SourceFile>
+  <SourceTime>2009-07-24T22:09:30+10:00</SourceTime>
+  <DestFile>E:/Monogame Platformer/2D Platformer/2D Platformer/Content/bin/death.xnb</DestFile>
+  <DestTime>2018-04-03T18:23:57.6336096+10:00</DestTime>
+  <Importer>WavImporter</Importer>
+  <ImporterTime>2017-01-31T18:47:42+11:00</ImporterTime>
+  <Processor>SoundEffectProcessor</Processor>
+  <ProcessorTime>2017-01-31T18:47:42+11:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

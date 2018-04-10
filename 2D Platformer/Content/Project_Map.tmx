@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.4" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="64" tileheight="64" infinite="0" nextobjectid="47">
+ <tileset firstgid="1" source="Tileset_Castle.tsx"/>
+ <imagelayer name="Background Image" offsetx="-372.727" offsety="257.576">
+  <image source="BG.png" width="2000" height="1143"/>
+ </imagelayer>
+ <layer name="Background Tiles" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA+cAFiYwox0IwFMPOA/AROIC0IxZxE0JxofOMBMM+EgeEANkyqeSA9wPA4gCe8E2DmEjLPBEmcEACqTSBkHj53YXMnPvNIcRu63qFoHqnpj4EBf/zSwn0uJJjpQsB9MP8SY6YLA+78wYkFEypPsOnB5T5yygNc5jlTgKnpPmMy0gYxAABlijky
+  </data>
+ </layer>
+ <layer name="Collision" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJyTZGBg0KYSlgViRQbqAdVR84aUeVxAzINFXImAeXIkusMaiK2A2A6HeWokmocNWCKZp0cF8xiQzLOiANthMY9agJrmIYcftQC6eSo47MUWVtjkYeaB0i03A/a0S477tBgYEqSBtAiVzJMCYpB5MgwQd5KLQeZpArEylbAuEAMA/aIT9A==
+  </data>
+ </layer>
+ <layer name="Spikes" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2BwAlcGhgMgjCaWMDCuGQUDCYZqvLtSgIcCAADTywdg
+  </data>
+ </layer>
+ <layer name="Decoration" width="20" height="20">
+  <data encoding="base64" compression="zlib">
+   eJxjYIAAcQbqAph56kCsjySuDxWDiSPziTFPH4sczAxcfFzmseORR7cHxselR56AfaNgFIwC6gF+KpsHK1/wlQn4ALo+WpWng808AJ7CA7s=
+  </data>
+ </layer>
+ <objectgroup color="#ffc800" name="Key">
+  <object id="45" x="95" y="481"/>
+ </objectgroup>
+ <objectgroup color="#00a000" name="Goal">
+  <object id="37" x="496" y="411"/>
+ </objectgroup>
+ <objectgroup color="#a00000" name="Enemies">
+  <object id="34" x="735" y="931"/>
+  <object id="38" x="1054" y="672"/>
+  <object id="39" x="158" y="671"/>
+  <object id="40" x="989" y="483"/>
+  <object id="42" x="607" y="673"/>
+ </objectgroup>
+</map>

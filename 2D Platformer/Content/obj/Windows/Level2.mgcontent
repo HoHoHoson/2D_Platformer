@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>E:/Monogame Platformer/2D Platformer/2D Platformer/Content/Level2.tmx</SourceFile>
+  <SourceTime>2018-04-03T19:07:27.2516096+10:00</SourceTime>
+  <DestFile>E:/Monogame Platformer/2D Platformer/2D Platformer/Content/bin/Windows/Level2.xnb</DestFile>
+  <DestTime>2018-04-03T19:07:30.0676096+10:00</DestTime>
+  <Importer>TiledMapImporter</Importer>
+  <ImporterTime>2017-12-11T04:41:22+11:00</ImporterTime>
+  <Processor>TiledMapProcessor</Processor>
+  <ProcessorTime>2017-12-11T04:41:22+11:00</ProcessorTime>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>
