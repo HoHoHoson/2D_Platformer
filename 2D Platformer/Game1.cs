@@ -38,6 +38,7 @@ namespace _2D_Platformer
         int score = 0;
         Texture2D heart = null;
         public static int lives = 3;
+        Texture2D keyIcon = null;
 
         public static int tile = 64;
         public static float meter = tile;
@@ -152,6 +153,7 @@ namespace _2D_Platformer
 
             arialFont = Content.Load<SpriteFont>("Arial");
             heart = Content.Load<Texture2D>("heart");
+            keyIcon = Content.Load<Texture2D>("Key - Icon");
         }
 
 
@@ -201,6 +203,7 @@ namespace _2D_Platformer
                 e.Draw(spriteBatch);
             }
             goal.Draw(spriteBatch);
+            if (keyCollected == false)
             keys.Draw(spriteBatch);
             if (keyCollected == false && chestInteracted == true)
             {
@@ -211,11 +214,13 @@ namespace _2D_Platformer
 
             spriteBatch.Begin();
 
-            spriteBatch.DrawString(arialFont, "Score : " + score.ToString(), new Vector2(20, 20), Color.Orange);
+            spriteBatch.DrawString(arialFont, "Score : " + score.ToString(), new Vector2(20, 20), Color.OrangeRed);
             for (int i = 0; i < lives; i++)
             {
                 spriteBatch.Draw(heart, new Vector2(ScreenWidth / 2 + i * 20, 20), Color.White);
             }
+            if (keyCollected == true)
+                spriteBatch.Draw(keyIcon, new Vector2(20, 45), Color.White);
 
             spriteBatch.End();
 
@@ -289,6 +294,10 @@ namespace _2D_Platformer
             else
             {
                 chestInteracted = false;
+            }
+            if (IsColliding(player.Bounds, keys.Bounds) == true)
+            {
+                keyCollected = true;
             }
         }
         private bool IsColliding(Rectangle rect1, Rectangle rect2)

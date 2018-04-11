@@ -90,3 +90,49 @@ C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\bin\Windows\x86\De
 C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\Superhero_violin_no_intro.xnb
 C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\Key - Icon.xnb
 C:\Users\s181702\Documents\GitHub\2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\Key.xnb
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\Arial.xnb
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\BG.xnb
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\chest.xnb
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\heart.xnb
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\Jump.xnb
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\Key - Icon.xnb
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\Key.xnb
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\player_death.xnb
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\Project_Map.xnb
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\Superhero_violin_no_intro.xnb
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\Tileset.xnb
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\walk.xnb
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\zombie.xnb
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\zombie_death.xnb
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\2D Platformer.exe
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\2D Platformer.pdb
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\MonoGame.Extended.dll
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\MonoGame.Extended.Graphics.dll
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\MonoGame.Extended.Tiled.dll
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.Direct3D9.dll
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\MonoGame.Extended.pdb
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\MonoGame.Extended.Graphics.pdb
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\MonoGame.Extended.Tiled.pdb
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Newtonsoft.Json.xml
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\obj\x86\Debug\2D Platformer.csprojResolveAssemblyReference.cache
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\obj\x86\Debug\2D Platformer.csproj.CoreCompileInputs.cache
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\obj\x86\Debug\2D Platformer.exe
+C:\Users\Hoson\OneDrive\Documents\GitHub\Monogame-2D_Platformer\2D Platformer\obj\x86\Debug\2D Platformer.pdb
