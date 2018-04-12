@@ -87,6 +87,12 @@ namespace _2D_Platformer
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
+            _2D_Platformer.StateManager.CreateState("SPLASH", new SplashState());
+            _2D_Platformer.StateManager.CreateState("GAME", new GameState());
+            _2D_Platformer.StateManager.CreateState("GAMEOVER", new GameOverState());
+
+            _2D_Platformer.StateManager.PushState("SPLASH");
+
             player.Load(Content);
 
             var viewportAdapter = new BoxingViewportAdapter(Window, GraphicsDevice, ScreenWidth, ScreenHeight);
@@ -170,6 +176,8 @@ namespace _2D_Platformer
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
+            _2D_Platformer.StateManager.Update(Content, gameTime);
+
             float deltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
             player.Update(deltaTime);
 
@@ -212,6 +220,7 @@ namespace _2D_Platformer
 
             spriteBatch.End();
 
+            _2D_Platformer.StateManager.Draw(spriteBatch);
             spriteBatch.Begin();
 
             spriteBatch.DrawString(arialFont, "Score : " + score.ToString(), new Vector2(20, 20), Color.OrangeRed);
