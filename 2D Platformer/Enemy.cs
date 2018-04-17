@@ -12,14 +12,14 @@ namespace _2D_Platformer
     class Enemy
     {
         Sprite sprite = new Sprite();
-        Game1 game = null;
+        GameState game = null;
         Vector2 velocity = Vector2.Zero;
 
         float pause = 0;
         bool moveRight = true;
 
-        static float zombieAcceleration = Game1.acceleration / 5.0f;
-        static Vector2 zombieMaxVelocity = Game1.maxVelocity / 5.0f;
+        static float zombieAcceleration = GameState.acceleration / 5.0f;
+        static Vector2 zombieMaxVelocity = GameState.maxVelocity / 5.0f;
 
         public Vector2 Position
         {
@@ -41,7 +41,7 @@ namespace _2D_Platformer
             }
         }
 
-        public Enemy(Game1 game)
+        public Enemy(GameState game)
         {
             this.game = game;
             velocity = Vector2.Zero;
@@ -69,8 +69,8 @@ namespace _2D_Platformer
 
                 int tx = game.PixelToTile(Position.X);
                 int ty = game.PixelToTile(Position.Y);
-                bool nx = (Position.X) % Game1.tile != 0;
-                bool ny = (Position.Y) % Game1.tile != 0;
+                bool nx = (Position.X) % GameState.tile != 0;
+                bool ny = (Position.Y) % GameState.tile != 0;
 
                 bool cell = game.CellAtTileCoord(tx, ty) != 0;
                 bool cellRight = game.CellAtTileCoord(tx + 1, ty) != 0;

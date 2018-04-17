@@ -178,7 +178,7 @@ C:\Users\s181702\Documents\SourceTree\Monogame-2D_Platformer\2D Platformer\bin\W
 C:\Users\s181702\Documents\SourceTree\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
 C:\Users\s181702\Documents\SourceTree\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.XInput.xml
 C:\Users\s181702\Documents\SourceTree\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\SharpDX.Direct3D9.xml
-C:\Users\s181702\Documents\SourceTree\Monogame-2D_Platformer\2D Platformer\obj\x86\Debug\2D Platformer.csprojResolveAssemblyReference.cache
 C:\Users\s181702\Documents\SourceTree\Monogame-2D_Platformer\2D Platformer\obj\x86\Debug\2D Platformer.csproj.CoreCompileInputs.cache
 C:\Users\s181702\Documents\SourceTree\Monogame-2D_Platformer\2D Platformer\obj\x86\Debug\2D Platformer.exe
 C:\Users\s181702\Documents\SourceTree\Monogame-2D_Platformer\2D Platformer\obj\x86\Debug\2D Platformer.pdb
+C:\Users\s181702\Documents\SourceTree\Monogame-2D_Platformer\2D Platformer\obj\x86\Debug\2D Platformer.csprojResolveAssemblyReference.cache

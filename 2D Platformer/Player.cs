@@ -15,7 +15,7 @@ namespace _2D_Platformer
     {
         Sprite playerSprite = new Sprite();
 
-        Game1 game = null;
+        GameState game = null;
         bool isFalling = true;
         bool isJumping = false;
         bool autoJump = false;
@@ -44,7 +44,7 @@ namespace _2D_Platformer
             }
         }
 
-        public Player(Game1 game)
+        public Player(GameState game)
         {
             this.game = game;
             isFalling = true;
@@ -64,8 +64,8 @@ namespace _2D_Platformer
             playerDeathSoundInstance = playerDeathSound.CreateInstance();
 
             playerSprite.Add(animation, 0, -5);
-
             playerSprite.position = Respawn;
+
         }
 
         public void Update(float deltaTime)
@@ -80,32 +80,32 @@ namespace _2D_Platformer
             bool wasMovingRight = velocity.X > 0;
             bool falling = isFalling;
 
-            Vector2 acceleration = new Vector2(0, Game1.gravity);
+            Vector2 acceleration = new Vector2(0, GameState.gravity);
 
             if (Keyboard.GetState().IsKeyDown(Keys.A) == true)
             {
-                acceleration.X -= Game1.acceleration;
+                acceleration.X -= GameState.acceleration;
                 playerSprite.SetFlipped(true);
                 playerSprite.Play();
             }
             else if (wasMovingLeft == true)
             {
-                acceleration.X += Game1.friction;
+                acceleration.X += GameState.friction;
             }
             if (Keyboard.GetState().IsKeyDown(Keys.D) == true)
             {
-                acceleration.X += Game1.acceleration;
+                acceleration.X += GameState.acceleration;
                 playerSprite.SetFlipped(false);
                 playerSprite.Play();
             }
             else if (wasMovingRight == true)
             {
-                acceleration.X -= Game1.friction;
+                acceleration.X -= GameState.friction;
             }
 
             if ((Keyboard.GetState().IsKeyDown(Keys.Space) == true && this.isJumping == false && falling == false) || autoJump == true)
             {
-                acceleration.Y -= Game1.jumpImpulse;
+                acceleration.Y -= GameState.jumpImpulse;
                 this.isJumping = true;
                 autoJump = false;
                 jumpSoundInstance.Play();
@@ -113,8 +113,8 @@ namespace _2D_Platformer
 
             velocity += acceleration * deltaTime;
 
-            velocity.X = MathHelper.Clamp(velocity.X, -Game1.maxVelocity.X, Game1.maxVelocity.X);
-            velocity.Y = MathHelper.Clamp(velocity.Y, -Game1.maxVelocity.Y, Game1.maxVelocity.Y);
+            velocity.X = MathHelper.Clamp(velocity.X, -GameState.maxVelocity.X, GameState.maxVelocity.X);
+            velocity.Y = MathHelper.Clamp(velocity.Y, -GameState.maxVelocity.Y, GameState.maxVelocity.Y);
 
             playerSprite.position += velocity * deltaTime;
 
@@ -131,8 +131,8 @@ namespace _2D_Platformer
             int tx = game.PixelToTile(playerSprite.position.X);
             int ty = game.PixelToTile(playerSprite.position.Y);
 
-            bool nx = (playerSprite.position.X) % Game1.tile != 0;
-            bool ny = (playerSprite.position.Y) % Game1.tile != 0;
+            bool nx = (playerSprite.position.X) % GameState.tile != 0;
+            bool ny = (playerSprite.position.Y) % GameState.tile != 0;
             bool cell = game.CellAtTileCoord(tx, ty) != 0;
             bool cellright = game.CellAtTileCoord(tx + 1, ty) != 0;
             bool celldown = game.CellAtTileCoord(tx, ty + 1) != 0;
@@ -155,7 +155,7 @@ namespace _2D_Platformer
                 if ((spikedown && !spike) || (spikediag && !spikeright && nx))
                 {
                     playerSprite.position = Respawn;
-                    Game1.lives -= 1;
+                    GameState.lives -= 1;
                     playerDeathSoundInstance.Play();
                 }
             }
@@ -172,7 +172,7 @@ namespace _2D_Platformer
                 if ((spike && !spikedown) || (spikeright && !spikediag && nx))
                 {
                     playerSprite.position = Respawn;
-                    Game1.lives -= 1;
+                    GameState.lives -= 1;
                     playerDeathSoundInstance.Play();
                 }
             }
@@ -188,7 +188,7 @@ namespace _2D_Platformer
                 if ((spikeright && !spike) || (spikediag && !spikedown && ny))
                 {
                     playerSprite.position = Respawn;
-                    Game1.lives -= 1;
+                    GameState.lives -= 1;
                     playerDeathSoundInstance.Play();
                 }
             }
@@ -203,7 +203,7 @@ namespace _2D_Platformer
                 if ((spike && !spikeright) || (spikedown && !spikediag && ny))
                 {
                     playerSprite.position = Respawn;
-                    Game1.lives -= 1;
+                    GameState.lives -= 1;
                     playerDeathSoundInstance.Play();
                 }
             }
