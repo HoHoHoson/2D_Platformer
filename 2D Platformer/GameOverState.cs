@@ -30,6 +30,7 @@ namespace _2D_Platformer
                 oldState = Keyboard.GetState();
             }
 
+            
             KeyboardState newState = Keyboard.GetState();
 
             if (newState.IsKeyDown(Keys.Enter) == true)
@@ -37,6 +38,7 @@ namespace _2D_Platformer
                 if (oldState.IsKeyDown(Keys.Enter) == false)
                 {
                     _2D_Platformer.StateManager.ChangeState("SPLASH");
+                    GameState.score = 0;
                 }
             }
             oldState = newState;
@@ -45,8 +47,8 @@ namespace _2D_Platformer
         public override void Draw(SpriteBatch spriteBatch)
         {
             spriteBatch.Begin();
-            spriteBatch.DrawString(font, "GAME OVER", new Vector2(200, 200), Color.White);
-            spriteBatch.DrawString(font, "GAME OVER", new Vector2(200, 220), Color.White);
+            spriteBatch.DrawString(font, "GAME OVER", new Vector2(200, 200), Color.OrangeRed);
+            spriteBatch.DrawString(font, "Score : " + GameState.score.ToString(), new Vector2(200, 240), Color.OrangeRed);
             spriteBatch.End();
         }
 

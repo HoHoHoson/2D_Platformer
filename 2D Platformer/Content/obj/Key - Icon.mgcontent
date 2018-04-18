@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/s181702/Documents/GitHub/2D_Platformer/2D Platformer/Content/Key - Icon.png</SourceFile>
-  <SourceTime>2018-04-10T20:30:52.8238746+10:00</SourceTime>
-  <DestFile>C:/Users/s181702/Documents/GitHub/2D_Platformer/2D Platformer/Content/bin/Key - Icon.xnb</DestFile>
-  <DestTime>2018-04-10T20:36:32.9659034+10:00</DestTime>
+  <SourceFile>C:/Users/s181702/Documents/SourceTree/Monogame-2D_Platformer/2D Platformer/Content/Key - Icon.png</SourceFile>
+  <SourceTime>2018-04-12T20:53:48.8952526+10:00</SourceTime>
+  <DestFile>C:/Users/s181702/Documents/SourceTree/Monogame-2D_Platformer/2D Platformer/Content/bin/Key - Icon.xnb</DestFile>
+  <DestTime>2018-04-18T18:11:19.2857014+10:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-01-31T18:47:42+11:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.Input;
 
 namespace _2D_Platformer
 {
     public class SplashState : _2D_Platformer.State
     {
         SpriteFont font = null;
-        float timer = 3;
+        float timer = 5;
 
         public SplashState() : base()
         {
@@ -28,17 +29,17 @@ namespace _2D_Platformer
 
             timer -= (float)gameTime.ElapsedGameTime.TotalSeconds;
 
-            if (timer <= 0)
+            if (timer <= 0 || Keyboard.GetState().IsKeyDown(Keys.Enter))
             {
                 _2D_Platformer.StateManager.ChangeState("GAME");
-                timer = 3;
+                timer = 5;
             }
         }
 
         public override void Draw(SpriteBatch spriteBatch)
         {
             spriteBatch.Begin();
-            spriteBatch.DrawString(font, "Splash", new Vector2(200, 200), Color.White);
+            spriteBatch.DrawString(font, "Splash", new Vector2(200, 200), Color.OrangeRed);
             spriteBatch.End();
         }
 

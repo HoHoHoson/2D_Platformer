@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/s181702/Documents/SourceTree/Monogame-2D_Platformer/2D Platformer/Content/Jump.wav</SourceFile>
-  <SourceTime>2018-04-12T20:53:48.8942525+10:00</SourceTime>
-  <DestFile>C:/Users/s181702/Documents/SourceTree/Monogame-2D_Platformer/2D Platformer/Content/bin/Jump.xnb</DestFile>
-  <DestTime>2018-04-18T18:11:18.6856414+10:00</DestTime>
+  <SourceFile>C:/Users/s181702/Documents/SourceTree/Monogame-2D_Platformer/2D Platformer/Content/key_collect.wav</SourceFile>
+  <SourceTime>2010-10-01T14:29:18+10:00</SourceTime>
+  <DestFile>C:/Users/s181702/Documents/SourceTree/Monogame-2D_Platformer/2D Platformer/Content/bin/Windows/key_collect.xnb</DestFile>
+  <DestTime>2018-04-18T18:14:49.3997107+10:00</DestTime>
   <Importer>WavImporter</Importer>
   <ImporterTime>2017-01-31T18:47:42+11:00</ImporterTime>
   <Processor>SoundEffectProcessor</Processor>

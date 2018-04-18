@@ -30,6 +30,10 @@ namespace _2D_Platformer
         SoundEffectInstance gameMusicInstance;
         SoundEffect zombieDeath;
         SoundEffectInstance zombieDeathInstance;
+        SoundEffect keyJingle;
+        SoundEffectInstance keyJingleInstance;
+        SoundEffect chestOpen;
+        SoundEffectInstance chestOpenInstance;
 
         Camera2D camera = null;
         TiledMap map = null;
@@ -38,7 +42,7 @@ namespace _2D_Platformer
         TiledMapTileLayer spikeLayer;
 
         SpriteFont arialFont;
-        int score = 0;
+        public static int score = 0;
         Texture2D heart = null;
         public static int lives = 3;
         Texture2D keyIcon = null;
@@ -51,9 +55,10 @@ namespace _2D_Platformer
         public static float friction = maxVelocity.X * 6;
         public static float jumpImpulse = meter * 1500;
 
-        bool keyCollected = false;
+        public static bool keyCollected = false;
         bool chestInteracted = false;
-        int totalEnemies = 0;
+        public static bool keyLost = false;
+        float timer = 0f;
 
 
 
@@ -98,7 +103,6 @@ namespace _2D_Platformer
                             enemy.Load(Content);
                             enemy.Position = new Vector2(obj.Position.X, obj.Position.Y);
                             enemies.Add(enemy);
-                            totalEnemies += 1; 
                         }
                     }
                     if (layer.Name == "Goal")
@@ -134,6 +138,10 @@ namespace _2D_Platformer
 
                 zombieDeath = Content.Load<SoundEffect>("zombie_death");
                 zombieDeathInstance = zombieDeath.CreateInstance();
+                keyJingle = Content.Load<SoundEffect>("key_collect");
+                keyJingleInstance = keyJingle.CreateInstance();
+                chestOpen = Content.Load<SoundEffect>("chest_opened");
+                chestOpenInstance = chestOpen.CreateInstance();
 
                 arialFont = Content.Load<SpriteFont>("Arial");
                 heart = Content.Load<Texture2D>("heart");
@@ -144,22 +152,36 @@ namespace _2D_Platformer
             }
 
             float deltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
+
             player.Update(deltaTime);
+            camera.Position = player.Position - new Vector2(ScreenWidth / 2, ScreenHeight / 2);
+
+            if (keyLost == true)
+            {
+                 timer += deltaTime;
+                if (timer >= 3.0f)
+                {
+                    keyLost = false;
+                    timer = 0f;
+                }
+            }
 
             foreach (Enemy e in enemies)
             {
                 e.Update(deltaTime);
             }
 
-            camera.Position = player.Position - new Vector2(ScreenWidth / 2, ScreenHeight / 2);
-
             CheckCollisions();
 
-            if (lives == 0 || keyCollected == true && chestInteracted == true)
+            if (lives <= 0 || keyCollected == true && chestInteracted == true)
             {
+                if (keyCollected == true && chestInteracted == true)
+                    chestOpen.Play();
                 _2D_Platformer.StateManager.ChangeState("GAMEOVER");
                 enemies.Clear();
                 gameMusicInstance.Stop();
+                keyCollected = false;
+
                 isLoaded = false;
             }
         }
@@ -184,7 +206,11 @@ namespace _2D_Platformer
                 keys.Draw(spriteBatch);
             if (keyCollected == false && chestInteracted == true)
             {
-                spriteBatch.DrawString(arialFont, "Locked", new Vector2(goal.position.X - 10, goal.position.Y - 30), Color.Red);
+                spriteBatch.DrawString(arialFont, "Locked", new Vector2(goal.position.X - 10, goal.position.Y - 30), Color.OrangeRed);
+            }
+            if (keyLost == true)
+            {
+                spriteBatch.DrawString(arialFont, "Key Lost   :(", new Vector2(player.Position.X + 5, player.Position.Y - 30), Color.OrangeRed);
             }
 
             spriteBatch.End();
@@ -271,6 +297,11 @@ namespace _2D_Platformer
                         lives -= 1;
                         player.PlayerDeath.Play();
                         Vector2 playerRespawn = player.Respawn;
+                        if (keyCollected == true)
+                        {
+                            keyCollected = false;
+                            keyLost = true;
+                        }
                     }
                 }
             }
@@ -282,11 +313,15 @@ namespace _2D_Platformer
             {
                 chestInteracted = false;
             }
-            if (IsColliding(player.Bounds, keys.Bounds) == true)
+            if (IsColliding(player.Bounds, keys.Bounds) == true && !keyCollected)
             {
+                keyJingleInstance.Play();
                 keyCollected = true;
             }
         }
+
+
+
         private bool IsColliding(Rectangle rect1, Rectangle rect2)
         {
             if (rect1.X + rect1.Width < rect2.X ||
@@ -299,6 +334,8 @@ namespace _2D_Platformer
             return true;
         }
 
+
+
         public int ScreenWidth
         {
             get
@@ -306,6 +343,8 @@ namespace _2D_Platformer
                 return game1.GraphicsDevice.Viewport.Width;
             }
         }
+
+
 
         public int ScreenHeight
         {
@@ -315,20 +354,14 @@ namespace _2D_Platformer
             }
         }
 
+
+
         public override void CleanUp()
         {
             font = null;
             isLoaded = false;
             gameMusicInstance.Stop();
             score = 0;
-        }
-
-        public int Score
-        {
-            get
-            {
-                return score;
-            }
         }
     }
 }

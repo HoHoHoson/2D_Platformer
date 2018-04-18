@@ -228,3 +228,5 @@ C:\Users\Hoson\OneDrive\Documents\SourceTree\Monogame-2D_Platformer\2D Platforme
 C:\Users\Hoson\OneDrive\Documents\SourceTree\Monogame-2D_Platformer\2D Platformer\obj\x86\Debug\2D Platformer.csproj.CoreCompileInputs.cache
 C:\Users\Hoson\OneDrive\Documents\SourceTree\Monogame-2D_Platformer\2D Platformer\obj\x86\Debug\2D Platformer.exe
 C:\Users\Hoson\OneDrive\Documents\SourceTree\Monogame-2D_Platformer\2D Platformer\obj\x86\Debug\2D Platformer.pdb
+C:\Users\s181702\Documents\SourceTree\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\key_collect.xnb
+C:\Users\s181702\Documents\SourceTree\Monogame-2D_Platformer\2D Platformer\bin\Windows\x86\Debug\Content\chest_opened.xnb

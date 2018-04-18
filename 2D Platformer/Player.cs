@@ -157,6 +157,11 @@ namespace _2D_Platformer
                     playerSprite.position = Respawn;
                     GameState.lives -= 1;
                     playerDeathSoundInstance.Play();
+                    if (GameState.keyCollected == true)
+                    {
+                        GameState.keyCollected = false;
+                        GameState.keyLost = true;
+                    }
                 }
             }
             else if (this.velocity.Y < 0)
@@ -174,6 +179,11 @@ namespace _2D_Platformer
                     playerSprite.position = Respawn;
                     GameState.lives -= 1;
                     playerDeathSoundInstance.Play();
+                    if (GameState.keyCollected == true)
+                    {
+                        GameState.keyCollected = false;
+                        GameState.keyLost = true;
+                    }
                 }
             }
 
@@ -190,6 +200,11 @@ namespace _2D_Platformer
                     playerSprite.position = Respawn;
                     GameState.lives -= 1;
                     playerDeathSoundInstance.Play();
+                    if (GameState.keyCollected == true)
+                    {
+                        GameState.keyCollected = false;
+                        GameState.keyLost = true;
+                    }
                 }
             }
             else if (this.velocity.X < 0)
@@ -205,6 +220,11 @@ namespace _2D_Platformer
                     playerSprite.position = Respawn;
                     GameState.lives -= 1;
                     playerDeathSoundInstance.Play();
+                    if (GameState.keyCollected == true)
+                    {
+                        GameState.keyCollected = false;
+                        GameState.keyLost = true;
+                    }
                 }
             }
 

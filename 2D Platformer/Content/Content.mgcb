@@ -146,3 +146,15 @@
 /processorParam:TextureFormat=Color
 /build:Key.png
 
+#begin key_collect.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:key_collect.wav
+
+#begin chest_opened.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:chest_opened.wav
+

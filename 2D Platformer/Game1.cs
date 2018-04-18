@@ -67,9 +67,9 @@ namespace _2D_Platformer
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.GhostWhite);
 
-            _2D_Platformer.StateManager.Draw(spriteBatch);            spriteBatch.Begin();
+            _2D_Platformer.StateManager.Draw(spriteBatch);                        spriteBatch.Begin();
             spriteBatch.End();
 
             base.Draw(gameTime);

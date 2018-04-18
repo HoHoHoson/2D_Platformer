@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/s181702/Documents/GitHub/2D_Platformer/2D Platformer/Content/Project_Map.tmx</SourceFile>
-  <SourceTime>2018-04-10T15:23:52.2543092+10:00</SourceTime>
-  <DestFile>C:/Users/s181702/Documents/GitHub/2D_Platformer/2D Platformer/Content/bin/Project_Map.xnb</DestFile>
-  <DestTime>2018-04-10T20:32:28.575021+10:00</DestTime>
+  <SourceFile>C:/Users/s181702/Documents/SourceTree/Monogame-2D_Platformer/2D Platformer/Content/Project_Map.tmx</SourceFile>
+  <SourceTime>2018-04-12T20:53:48.8962527+10:00</SourceTime>
+  <DestFile>C:/Users/s181702/Documents/SourceTree/Monogame-2D_Platformer/2D Platformer/Content/bin/Project_Map.xnb</DestFile>
+  <DestTime>2018-04-18T18:11:18.8186547+10:00</DestTime>
   <Importer>TiledMapImporter</Importer>
-  <ImporterTime>2017-12-11T04:41:22+11:00</ImporterTime>
+  <ImporterTime>2018-04-12T20:53:49.6113242+10:00</ImporterTime>
   <Processor>TiledMapProcessor</Processor>
-  <ProcessorTime>2017-12-11T04:41:22+11:00</ProcessorTime>
+  <ProcessorTime>2018-04-12T20:53:49.6113242+10:00</ProcessorTime>
   <Dependencies />
   <BuildAsset />
   <BuildOutput />
