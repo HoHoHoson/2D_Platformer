@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/s181702/Documents/SourceTree/Monogame-2D_Platformer/2D Platformer/Content/Project_Map.tmx</SourceFile>
-  <SourceTime>2018-04-12T20:53:48.8962527+10:00</SourceTime>
-  <DestFile>C:/Users/s181702/Documents/SourceTree/Monogame-2D_Platformer/2D Platformer/Content/bin/Windows/Project_Map.xnb</DestFile>
-  <DestTime>2018-04-12T20:58:37.9901592+10:00</DestTime>
+  <SourceFile>C:/Users/Hoson/OneDrive/Documents/SourceTree/Monogame-2D_Platformer/2D Platformer/Content/Project_Map.tmx</SourceFile>
+  <SourceTime>2018-04-13T14:51:02.9750175+10:00</SourceTime>
+  <DestFile>C:/Users/Hoson/OneDrive/Documents/SourceTree/Monogame-2D_Platformer/2D Platformer/Content/bin/Windows/Project_Map.xnb</DestFile>
+  <DestTime>2018-04-18T15:27:14.6523745+10:00</DestTime>
   <Importer>TiledMapImporter</Importer>
-  <ImporterTime>2018-04-12T20:53:49.6113242+10:00</ImporterTime>
+  <ImporterTime>2018-04-13T14:51:04.2341767+10:00</ImporterTime>
   <Processor>TiledMapProcessor</Processor>
-  <ProcessorTime>2018-04-12T20:53:49.6113242+10:00</ProcessorTime>
+  <ProcessorTime>2018-04-13T14:51:04.2341767+10:00</ProcessorTime>
   <Dependencies />
   <BuildAsset />
   <BuildOutput />

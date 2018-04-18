@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/s181702/Documents/SourceTree/Monogame-2D_Platformer/2D Platformer/Content/Key.png</SourceFile>
-  <SourceTime>2018-04-12T20:53:48.8952526+10:00</SourceTime>
-  <DestFile>C:/Users/s181702/Documents/SourceTree/Monogame-2D_Platformer/2D Platformer/Content/bin/Windows/Key.xnb</DestFile>
-  <DestTime>2018-04-12T20:58:38.4172019+10:00</DestTime>
+  <SourceFile>C:/Users/Hoson/OneDrive/Documents/SourceTree/Monogame-2D_Platformer/2D Platformer/Content/Key.png</SourceFile>
+  <SourceTime>2018-04-13T14:51:02.9745169+10:00</SourceTime>
+  <DestFile>C:/Users/Hoson/OneDrive/Documents/SourceTree/Monogame-2D_Platformer/2D Platformer/Content/bin/Windows/Key.xnb</DestFile>
+  <DestTime>2018-04-18T15:27:15.6875041+10:00</DestTime>
   <Importer>TextureImporter</Importer>
-  <ImporterTime>2017-01-31T18:47:42+11:00</ImporterTime>
+  <ImporterTime>2017-03-02T02:05:36+11:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
-  <ProcessorTime>2017-01-31T18:47:42+11:00</ProcessorTime>
+  <ProcessorTime>2017-03-02T02:05:36+11:00</ProcessorTime>
   <Parameters>
     <Key>ColorKeyColor</Key>
     <Value>255,0,255,255</Value>

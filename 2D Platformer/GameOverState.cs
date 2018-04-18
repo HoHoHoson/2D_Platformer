@@ -19,7 +19,6 @@ namespace _2D_Platformer
 
         public GameOverState() : base()
         {
-
         }
 
         public override void Update(ContentManager Content, GameTime gameTime)
@@ -46,7 +45,8 @@ namespace _2D_Platformer
         public override void Draw(SpriteBatch spriteBatch)
         {
             spriteBatch.Begin();
-            spriteBatch.DrawString(font, "Game Over...", new Vector2(200, 200), Color.White);
+            spriteBatch.DrawString(font, "GAME OVER", new Vector2(200, 200), Color.White);
+            spriteBatch.DrawString(font, "GAME OVER", new Vector2(200, 220), Color.White);
             spriteBatch.End();
         }
 

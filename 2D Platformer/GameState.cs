@@ -53,6 +53,7 @@ namespace _2D_Platformer
 
         bool keyCollected = false;
         bool chestInteracted = false;
+        int totalEnemies = 0;
 
 
 
@@ -69,8 +70,8 @@ namespace _2D_Platformer
             if (isLoaded == false)
             {
                 font = Content.Load<SpriteFont>("Arial");
-                var viewportAdapter = new BoxingViewportAdapter(game1.Window, game1.GraphicsDevice, ScreenWidth, ScreenHeight);
 
+                var viewportAdapter = new BoxingViewportAdapter(game1.Window, game1.GraphicsDevice, ScreenWidth, ScreenHeight);
                 camera = new Camera2D(viewportAdapter);
                 camera.Position = new Vector2(0, ScreenHeight);
 
@@ -97,6 +98,7 @@ namespace _2D_Platformer
                             enemy.Load(Content);
                             enemy.Position = new Vector2(obj.Position.X, obj.Position.Y);
                             enemies.Add(enemy);
+                            totalEnemies += 1; 
                         }
                     }
                     if (layer.Name == "Goal")
@@ -136,6 +138,8 @@ namespace _2D_Platformer
                 arialFont = Content.Load<SpriteFont>("Arial");
                 heart = Content.Load<Texture2D>("heart");
                 keyIcon = Content.Load<Texture2D>("Key - Icon");
+                lives = 3;
+
                 isLoaded = true;
             }
 
@@ -151,9 +155,12 @@ namespace _2D_Platformer
 
             CheckCollisions();
 
-            if (Keyboard.GetState().IsKeyDown(Keys.Enter) == true)
+            if (lives == 0 || keyCollected == true && chestInteracted == true)
             {
                 _2D_Platformer.StateManager.ChangeState("GAMEOVER");
+                enemies.Clear();
+                gameMusicInstance.Stop();
+                isLoaded = false;
             }
         }
 
@@ -184,7 +191,6 @@ namespace _2D_Platformer
 
             spriteBatch.Begin();
 
-            spriteBatch.DrawString(font, "Game State", new Vector2(200, 200), Color.White);
             spriteBatch.DrawString(arialFont, "Score : " + score.ToString(), new Vector2(20, 20), Color.OrangeRed);
             for (int i = 0; i < lives; i++)
             {
@@ -315,6 +321,14 @@ namespace _2D_Platformer
             isLoaded = false;
             gameMusicInstance.Stop();
             score = 0;
+        }
+
+        public int Score
+        {
+            get
+            {
+                return score;
+            }
         }
     }
 }
