@@ -157,6 +157,7 @@ namespace _2D_Platformer
                     playerSprite.position = Respawn;
                     GameState.lives -= 1;
                     playerDeathSoundInstance.Play();
+                    GameState.score -= 2;
                     if (GameState.keyCollected == true)
                     {
                         GameState.keyCollected = false;
@@ -179,6 +180,7 @@ namespace _2D_Platformer
                     playerSprite.position = Respawn;
                     GameState.lives -= 1;
                     playerDeathSoundInstance.Play();
+                    GameState.score -= 2;
                     if (GameState.keyCollected == true)
                     {
                         GameState.keyCollected = false;
@@ -200,6 +202,7 @@ namespace _2D_Platformer
                     playerSprite.position = Respawn;
                     GameState.lives -= 1;
                     playerDeathSoundInstance.Play();
+                    GameState.score -= 2;
                     if (GameState.keyCollected == true)
                     {
                         GameState.keyCollected = false;
@@ -220,6 +223,7 @@ namespace _2D_Platformer
                     playerSprite.position = Respawn;
                     GameState.lives -= 1;
                     playerDeathSoundInstance.Play();
+                    GameState.score -= 2;
                     if (GameState.keyCollected == true)
                     {
                         GameState.keyCollected = false;

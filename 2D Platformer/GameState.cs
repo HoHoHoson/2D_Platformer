@@ -180,6 +180,7 @@ namespace _2D_Platformer
                 _2D_Platformer.StateManager.ChangeState("GAMEOVER");
                 enemies.Clear();
                 gameMusicInstance.Stop();
+                score += 4;
                 keyCollected = false;
 
                 isLoaded = false;
@@ -295,6 +296,7 @@ namespace _2D_Platformer
                     else
                     {
                         lives -= 1;
+                        GameState.score -= 2;
                         player.PlayerDeath.Play();
                         Vector2 playerRespawn = player.Respawn;
                         if (keyCollected == true)

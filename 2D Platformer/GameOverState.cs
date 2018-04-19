@@ -14,7 +14,6 @@ namespace _2D_Platformer
     {
         bool isLoaded = false;
         SpriteFont font = null;
-
         KeyboardState oldState;
 
         public GameOverState() : base()
@@ -30,7 +29,6 @@ namespace _2D_Platformer
                 oldState = Keyboard.GetState();
             }
 
-            
             KeyboardState newState = Keyboard.GetState();
 
             if (newState.IsKeyDown(Keys.Enter) == true)
@@ -39,6 +37,7 @@ namespace _2D_Platformer
                 {
                     _2D_Platformer.StateManager.ChangeState("SPLASH");
                     GameState.score = 0;
+                    isLoaded = false;
                 }
             }
             oldState = newState;
@@ -49,6 +48,8 @@ namespace _2D_Platformer
             spriteBatch.Begin();
             spriteBatch.DrawString(font, "GAME OVER", new Vector2(200, 200), Color.OrangeRed);
             spriteBatch.DrawString(font, "Score : " + GameState.score.ToString(), new Vector2(200, 240), Color.OrangeRed);
+            spriteBatch.DrawString(font, "Retry (Enter)", new Vector2(200, 460), Color.OrangeRed);
+            spriteBatch.DrawString(font, "Quit (Esc)", new Vector2(450, 460), Color.OrangeRed);
             spriteBatch.End();
         }
 
