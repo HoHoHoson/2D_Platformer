@@ -166,6 +166,9 @@ namespace _2D_Platformer
                 }
             }
 
+            if (score <= 0)
+                score = 0;
+
             foreach (Enemy e in enemies)
             {
                 e.Update(deltaTime);
