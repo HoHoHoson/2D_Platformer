@@ -56,7 +56,7 @@ namespace _2D_Platformer
         public static float jumpImpulse = meter * 1500;
 
         public static bool keyCollected = false;
-        bool chestInteracted = false;
+        public static bool chestInteracted = false;
         public static bool keyLost = false;
         float timer = 0f;
 
@@ -179,11 +179,13 @@ namespace _2D_Platformer
             if (lives <= 0 || keyCollected == true && chestInteracted == true)
             {
                 if (keyCollected == true && chestInteracted == true)
+                {
+                    score += 3;
                     chestOpen.Play();
+                }   
                 _2D_Platformer.StateManager.ChangeState("GAMEOVER");
                 enemies.Clear();
                 gameMusicInstance.Stop();
-                score += 4;
                 keyCollected = false;
 
                 isLoaded = false;
@@ -221,7 +223,7 @@ namespace _2D_Platformer
 
             spriteBatch.Begin();
 
-            spriteBatch.DrawString(arialFont, "Score : " + score.ToString(), new Vector2(20, 20), Color.OrangeRed);
+            spriteBatch.DrawString(arialFont, "Score : " + score.ToString() + "/10", new Vector2(20, 20), Color.OrangeRed);
             for (int i = 0; i < lives; i++)
             {
                 spriteBatch.Draw(heart, new Vector2(ScreenWidth / 2 + i * 20, 20), Color.White);

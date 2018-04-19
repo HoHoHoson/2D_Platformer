@@ -47,7 +47,13 @@ namespace _2D_Platformer
         {
             spriteBatch.Begin();
             spriteBatch.DrawString(font, "GAME OVER", new Vector2(200, 200), Color.OrangeRed);
-            spriteBatch.DrawString(font, "Score : " + GameState.score.ToString(), new Vector2(200, 240), Color.OrangeRed);
+            spriteBatch.DrawString(font, "Score : " + GameState.score.ToString() + "/10", new Vector2(200, 240), Color.OrangeRed);
+            if (GameState.score == 10)
+                spriteBatch.DrawString(font, "Perfect! You were born to be a hero! :D", new Vector2(200, 270), Color.OrangeRed);
+            if (GameState.score < 10 && GameState.lives > 0)
+                spriteBatch.DrawString(font, "Congrats on the loot! The revives were expensive though...", new Vector2(200, 270), Color.OrangeRed);
+            if (GameState.lives <= 0)
+                spriteBatch.DrawString(font, "Rest in Pieces x_x", new Vector2(200, 270), Color.OrangeRed);
             spriteBatch.DrawString(font, "Retry (Enter)", new Vector2(200, 460), Color.OrangeRed);
             spriteBatch.DrawString(font, "Quit (Esc)", new Vector2(450, 460), Color.OrangeRed);
             spriteBatch.End();
